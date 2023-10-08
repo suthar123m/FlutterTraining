@@ -5,8 +5,6 @@ void main()
   int? A;
   int? B;
 
-  int? swapping;
-
   print("Enter the value of A == ");
   A = int.parse(stdin.readLineSync()!);
 
@@ -17,7 +15,6 @@ void main()
   B = A - B;
   A = A - B;
 
-  print("After tha swapping == $swapping");
-
-
+  print("After the swapping of A is == $A");
+  print("After the swapping of B is == $B");
 }
