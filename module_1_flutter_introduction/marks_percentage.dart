@@ -26,7 +26,7 @@ void main()
   s_science = int.parse(stdin.readLineSync()!);
 
   total = maths+hindi+english+science+s_science;
-  print("Total number of all subject == ");
+  print("Total number of all subject == $total");
 
   percentage = (total/500)*100;
 
